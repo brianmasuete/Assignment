@@ -1,9 +1,35 @@
 html{
-    color: white;
+    color: white ;
 }
 .container{
+    color: white ;
     background: url(Image/3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+ul li{
+   margin-left: 10px;
+   list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.images{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+img{
+    border-radius: 50%;   
 }
